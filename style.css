@@ -64,3 +64,48 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+.tabuleiro{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00ff00;
+}
+.gramado{
+    width: 536px;
+    height: 536px;
+    background-color: #008000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: url(../images/hammer.png), crosshair;
+    padding: 0px;
+}
+.gramado img{
+    padding: 25px 50px 25px 50px;
+    box-sizing: content-box;
+    width: 76px;
+    height: 61px;
+}
+.pontos {
+    width: 536px;
+    height: 536px;
+    display: flex;
+    justify-content: center
+}
+.pontos th{
+    font-size: 50px;
+    font-family: 'Bungee Spice', sans-serif;
+    text-align: center;
+}
+.pontos td:first-child {
+    font-size: 36px;
+    font-family: 'Bungee Spice', sans-serif;
+    text-align: right;
+}
+#start{
+    width: 100%;
+    font-size: 36px;
+    border: 1px solid black;
+}
