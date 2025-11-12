@@ -109,3 +109,71 @@ body{
     font-size: 36px;
     border: 1px solid black;
 }
+.records{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading {
+    font-size: 40px;
+    font-family: 'Bungee Spice', sans-serif;
+    color: #1488cc;
+}
+.records table{
+    border-collapse: collapse;
+    font-family: 'MedievalSharp', cursive;
+}
+.records th{
+    background-color: #000000;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: 36px;
+
+}
+.records td{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+}
+.records tr:nth-child(even){
+    background-color: #c0c0c0;
+}
+.records td:first-child, td:nth-child(3){
+    text-align: right;
+}
+.records td:nth-child(4){
+    text-align: center;
+}
+.regras{
+    flex-direction: column;
+}
+.regras .contentBox{
+    width: unset;
+}
+.regras .imgBox{
+    height: 100%;
+}
+.tabuleiro{
+    flex-direction: column-reverse;
+    height: 100%
+}
+.pontos th{
+    font-size: 30px;
+}
+.pontos td:first-child {
+    font-size: 20px;
+}
+.gramado{
+    width: 400px;
+    height: 400px;
+}
+.pontos {
+    width: 400px;
+    height: 400px;
+}
+.gramado img{
+    padding: 10px 30px 10px 30px;
+}
